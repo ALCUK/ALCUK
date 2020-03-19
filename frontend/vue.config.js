@@ -1,7 +1,6 @@
 module.exports = {
     transpileDependencies: ['vuetify'],
     publicPath: '/ALCUK/',
-    outputDir: '../backend/public/',
     devServer: {
         proxy: {
             '/api': {
